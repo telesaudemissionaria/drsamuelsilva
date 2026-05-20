@@ -35,23 +35,6 @@ export function Hero() {
             <p className="text-gray-300 font-normal">Estoy aquí para acompañarte mientras exploramos cómo la fe cristiana y la medicina se conectan para ayudarte a entender tu salud, tomar mejores decisiones y vivir con más dignidad — sin importar dónde estés.</p>
             <p className="text-white">¡Vamos a ello!</p>
           </div>
-
-          <div className="mt-8 flex flex-wrap gap-4">
-            <a 
-              href="https://wa.me/591XXXXXXXX" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-brand-cream hover:bg-white text-black px-6 py-3 rounded-full font-sans font-medium tracking-wide text-sm transition-all hover:scale-105 duration-200"
-            >
-              Hablemos por WhatsApp
-            </a>
-            <a 
-              href="mailto:contacto@drsamuelsilva.med" 
-              className="inline-flex items-center justify-center border border-white/30 hover:border-white text-white px-6 py-3 rounded-full font-sans font-medium tracking-wide text-sm transition-all hover:scale-105 duration-200"
-            >
-              Enviar correo
-            </a>
-          </div>
         </motion.div>
 
       </div>
