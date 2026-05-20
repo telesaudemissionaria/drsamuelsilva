@@ -45,11 +45,11 @@ export function About() {
             <ul className="list-none pl-0 flex flex-col gap-2 text-gray-700 text-base">
               <li className="flex items-start gap-2">
                 <span className="text-black font-semibold mt-0.5">•</span>
-                <span>Atenção Primária à Saúde e Telessaúde — UFRN/AVASUS</span>
+                <span>Atención Primaria a la Salud y Telesalud — UFRN/AVASUS</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-black font-semibold mt-0.5">•</span>
-                <span>Transformação Digital em Saúde — ESR/RNP</span>
+                <span>Transformación Digital en Salud — ESR/RNP</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-black font-semibold mt-0.5">•</span>

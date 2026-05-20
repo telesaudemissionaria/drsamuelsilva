@@ -1,4 +1,4 @@
-import { Instagram, Linkedin } from 'lucide-react';
+import { Instagram, Linkedin, MessageSquare, Mail } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,7 +9,7 @@ export function Footer() {
         
         {/* Navigation & Branding */}
         <div className="flex flex-col items-center md:items-start gap-6">
-          <h3 className="font-serif text-2xl text-white tracking-wide">Dr. Samuel Silva</h3>
+          <p className="font-serif text-2xl text-white tracking-wide">Dr. Samuel Silva</p>
           <nav className="flex flex-wrap justify-center gap-6 text-sm font-sans uppercase tracking-wider">
             <a href="#home" className="hover:text-white transition-colors">Inicio</a>
             <a href="#about" className="hover:text-white transition-colors">Quién soy</a>
@@ -26,6 +26,12 @@ export function Footer() {
             </a>
             <a href="https://www.linkedin.com/in/drsamuelsilvamed/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="LinkedIn">
               <Linkedin className="w-5 h-5" />
+            </a>
+            <a href="https://wa.me/591XXXXXXXX" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="WhatsApp">
+              <MessageSquare className="w-5 h-5" />
+            </a>
+            <a href="mailto:contacto@drsamuelsilva.med" className="hover:text-white transition-colors" aria-label="Email">
+              <Mail className="w-5 h-5" />
             </a>
           </div>
           <div className="flex flex-col md:flex-row gap-4 items-center text-xs font-sans text-gray-500">
