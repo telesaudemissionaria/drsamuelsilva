@@ -1,4 +1,4 @@
-import { Instagram } from 'lucide-react';
+import { Instagram, Linkedin } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -23,6 +23,9 @@ export function Footer() {
           <div className="flex gap-6">
             <a href="https://www.instagram.com/drsamuelsilva.med" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Instagram">
               <Instagram className="w-5 h-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/drsamuelsilvamed/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="LinkedIn">
+              <Linkedin className="w-5 h-5" />
             </a>
           </div>
           <div className="flex flex-col md:flex-row gap-4 items-center text-xs font-sans text-gray-500">
