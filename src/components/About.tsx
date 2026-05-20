@@ -8,7 +8,7 @@ export function About() {
         {/* Title */}
         <motion.div 
           initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}h
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
@@ -27,7 +27,7 @@ export function About() {
           className="flex flex-col gap-8 font-sans font-light text-lg text-gray-800 leading-relaxed"
         >
           <p>
-            Soy médico general con más de 13 años de práctica en comunidades rurales de Bolivia — desde el altiplano andino hasta el Amazonas boliviano. Con la convicción que me llevó al campo: que la calidad de tu salud no debería depender de dónde naciste.
+            Formado en el campo antes que en el aula: 13 años entre comunidades rurales bolivianas, desde brigadas de salud voluntarias hasta práctica clínica supervisada en Hospitales. Con la convicción que me llevó al campo: que la calidad de tu salud no debería depender de dónde naciste.
           </p>
           
           <div>
