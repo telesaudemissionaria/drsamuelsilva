@@ -10,6 +10,7 @@ export function Navigation() {
     { label: 'Quién soy', href: '#about' },
     { label: 'Enfoques', href: '#areas' },
     { label: 'Instagram', href: '#instagram' },
+    { label: 'Contacto', href: '#contact' },
   ];
 
   return (

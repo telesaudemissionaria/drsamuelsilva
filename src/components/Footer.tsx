@@ -4,7 +4,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-brand-footer text-gray-300 py-16">
+    <footer id="contact" className="bg-brand-footer text-gray-300 py-16">
       <div className="w-full max-w-7xl mx-auto px-6 md:px-12">
         
         {/* Contact Block - Top of Footer */}
@@ -36,12 +36,16 @@ export function Footer() {
           
           {/* Navigation & Branding */}
           <div className="flex flex-col items-center md:items-start gap-6">
-            <p className="font-serif text-2xl text-white tracking-wide">Dr. Samuel Silva</p>
+            <div className="flex flex-col items-center md:items-start">
+              <p className="font-serif text-2xl text-white tracking-wide">Dr. Samuel Silva</p>
+              <a href="mailto:drsamuelsilva.med@gmail.com" className="text-gray-400 hover:text-white text-sm font-sans mt-2 transition-colors">drsamuelsilva.med@gmail.com</a>
+            </div>
             <nav className="flex flex-wrap justify-center gap-6 text-sm font-sans uppercase tracking-wider">
               <a href="#home" className="hover:text-white transition-colors">Inicio</a>
               <a href="#about" className="hover:text-white transition-colors">Quién soy</a>
               <a href="#areas" className="hover:text-white transition-colors">Enfoques</a>
               <a href="#instagram" className="hover:text-white transition-colors">Instagram</a>
+              <a href="#contact" className="hover:text-white transition-colors">Contacto</a>
             </nav>
           </div>
 
