@@ -39,9 +39,39 @@ export function About() {
 
           <div>
             <h3 className="text-sm uppercase tracking-widest font-semibold mb-2 text-black">Mi Formación</h3>
-            <p>
-              Médico por la Universidad De Aquino Bolivia (UDABOL). Certificado en ACLS, Salud Digital y Vertex AI (Google).
+            <p className="font-medium text-black mb-3">
+              Médico por la Universidad De Aquino Bolivia (UDABOL)
             </p>
+            <ul className="list-none pl-0 flex flex-col gap-2 text-gray-700 text-base">
+              <li className="flex items-start gap-2">
+                <span className="text-black font-semibold mt-0.5">•</span>
+                <span>Atenção Primária à Saúde e Telessaúde — UFRN/AVASUS</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-black font-semibold mt-0.5">•</span>
+                <span>Transformação Digital em Saúde — ESR/RNP</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-black font-semibold mt-0.5">•</span>
+                <span>Telesalud en APS — PAHO</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-black font-semibold mt-0.5">•</span>
+                <span>IA en Healthcare — Stanford</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-black font-semibold mt-0.5">•</span>
+                <span>ACLS — American Heart Association</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-black font-semibold mt-0.5">•</span>
+                <span>APS y Urgencias — UNA-SUS Brasil</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-black font-semibold mt-0.5">•</span>
+                <span>Trauma Prehospitalario — IBRAPH</span>
+              </li>
+            </ul>
           </div>
         </motion.div>
 
