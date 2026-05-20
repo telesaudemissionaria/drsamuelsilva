@@ -40,7 +40,7 @@ export function About() {
           <div>
             <h3 className="text-sm uppercase tracking-widest font-semibold mb-2 text-black">Mi Formación</h3>
             <p className="font-medium text-black mb-3">
-              Médico por la Universidad De Aquino Bolivia (UDABOL)
+              Médico por la Universidad De Aquino Bolivia (UDABOL). Certificado en ACLS, Salud Digital y Vertex AI (Google).
             </p>
             <ul className="list-none pl-0 flex flex-col gap-2 text-gray-700 text-base">
               <li className="flex items-start gap-2">
